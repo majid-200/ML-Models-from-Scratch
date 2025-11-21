@@ -21,8 +21,8 @@ Each project is self-contained in its own folder with a dedicated README explain
 1.  **Clone the Repository:**
    
     ```bash
-    git clone https://github.com/your-username/LLM-From-Scratch.git
-    cd LLM-From-Scratch
+    git clone https://github.com/majid-200/ML-Models-from-Scratch.git
+    cd ML-Models-from-Scratch
     ```
 
 2.  **Create a Virtual Environment:**
