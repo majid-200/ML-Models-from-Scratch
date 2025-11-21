@@ -29,7 +29,7 @@ This notebook and script implement **Byte-Pair Encoding (BPE)** from scratch, a 
 
 1.  **Install dependencies:**
     ```bash
-    pip install torch torchvision torchaudio notebook
+    pip install torch notebook
     ```
 
 2.  **Explore the Notebooks:** Launch Jupyter (`jupyter notebook`) and navigate into the `llama3-architecture-deep-dive` directory to explore the notebooks. Each notebook is self-contained and explains the concepts as they are implemented.
