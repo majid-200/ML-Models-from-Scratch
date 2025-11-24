@@ -232,7 +232,7 @@ def get_config():
         "model_basename": "tmodel_",     # Prefix for checkpoint files
                                          # Results in: tmodel_00.pt, tmodel_01.pt, etc.
         
-        "preload": "",       # Which checkpoint to load at start
+        "preload": "latest",       # Which checkpoint to load at start
                                    # Options:
                                    # - "latest": Most recent checkpoint
                                    # - "05": Specific epoch number

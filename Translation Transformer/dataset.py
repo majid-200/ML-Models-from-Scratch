@@ -101,7 +101,19 @@ class BilingualDataset(Dataset):
 
         # Safety check: if negative, the sentence is too long for seq_len
         if enc_num_padding_tokens < 0 or dec_num_padding_tokens < 0:
-            raise ValueError("Sentence is too long")
+            # Truncate to fit
+            max_enc_len = self.seq_len - 2  # Reserve space for SOS and EOS
+            max_dec_len = self.seq_len - 1  # Reserve space for SOS
+            
+            enc_input_tokens = enc_input_tokens[:max_enc_len]
+            dec_input_tokens = dec_input_tokens[:max_dec_len]
+            
+            # Recalculate padding
+            enc_num_padding_tokens = self.seq_len - len(enc_input_tokens) - 2
+            dec_num_padding_tokens = self.seq_len - len(dec_input_tokens) - 1
+            
+            print(f"Truncated sentence {idx}")
+            # raise ValueError("Sentence is too long")
 
         # ====================================================================
         # BUILD ENCODER INPUT
