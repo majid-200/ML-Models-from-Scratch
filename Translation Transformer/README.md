@@ -65,7 +65,7 @@ First, set up a virtual environment and install the required dependencies.
 cd Translation-Transformer
 
 # Install dependencies
-pip install -r requirements.txt
+pip install torch datasets tokenizers torchmetrics tqdm tensorboard
 ```
 
 ### 2. Configuration
