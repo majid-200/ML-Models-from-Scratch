@@ -109,3 +109,9 @@ The `config.py` file allows for easy experimentation. Here are some key settings
 | `datasource`      | `'opus_books'`      | The Hugging Face dataset to use.                            |
 | `lang_src`/`lang_tgt` | `'en'` / `'it'` | The language pair for translation.                          |
 | `preload`         | `'latest'`          | Resume training from the latest checkpoint. Set to `None` to start fresh. |
+
+---
+
+## Acknowledgements
+This project is heavily inspired by and based on the excellent tutorial by Umar Jamil:
+- **[Coding a Transformer from scratch on PyTorch, with full explanation, training and inference.](https://youtu.be/ISNdQcPhsts?si=DZwetfKNqLTe3Fno)**
