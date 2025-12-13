@@ -13,6 +13,7 @@ Each project is self-contained in its own folder with a dedicated README explain
 | **GPT-like Model**                 | Build a complete, character-level Generative Pre-trained Transformer from the ground up.                 | Transformer, Self-Attention, Bigram |
 | **Llama 3 Deep Dive** | Explore and implement the key architectural innovations in Meta's Llama 3 model.                           | RoPE, SwiGLU, GQA, BPE Tokenizer    |
 | **PaliGemma**                | An implementation of Google's PaliGemma multimodal model, combining a SigLIP vision encoder and a Gemma LLM. | Multimodal, ViT, GQA, KV Cache, RoPE |
+| **Translation Transformer** | A from-scratch implementation of the original "Attention Is All You Need" Transformer for machine translation. | Encoder-Decoder, Multi-Head Attention, Positional Encoding |
 | *(More model implementations will be added here...)*      |                                                                                                          |                                     |
 
 ---
