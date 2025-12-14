@@ -15,6 +15,7 @@ Each project is self-contained in its own folder with a dedicated README explain
 | **PaliGemma**                | An implementation of Google's PaliGemma multimodal model, combining a SigLIP vision encoder and a Gemma LLM. | Multimodal, ViT, GQA, KV Cache, RoPE |
 | **Translation Transformer** | A from-scratch implementation of the original "Attention Is All You Need" Transformer for machine translation. | Encoder-Decoder, Multi-Head Attention, Positional Encoding |
 | **Denoising Diffusion Model (DDPM)** | An implementation of the Denoising Diffusion Probabilistic Model for image generation, featuring a U-Net with attention. | Diffusion Models, U-Net, Self-Attention, Time Embeddings |
+| **LoRA**                          | A two-part guide to LoRA, covering the SVD math and a practical PyTorch implementation for fine-tuning.      | SVD, Low-Rank Factorization, PEFT   |
 | *(More model implementations will be added here...)*      |                                                                                                          |                                     |
 
 ---
