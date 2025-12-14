@@ -92,3 +92,5 @@ The final output is an animated GIF showcasing the reverse diffusion process, fr
 ---
 
 ## Acknowledgements
+This project is heavily inspired by and based on the excellent tutorial by Umar Jamil:
+- **[How diffusion models work - explanation and code!](https://youtu.be/I1sPXkm2NH4?si=-43hv1jZQr9Q9fc6)**
