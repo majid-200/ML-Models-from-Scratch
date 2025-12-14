@@ -66,6 +66,5 @@ This notebook answers the question: **"How do you apply LoRA to a real neural ne
 ---
 
 ## Acknowledgements
-This project is an educational implementation based on the concepts from the original LoRA paper:
-https://youtu.be/PXWYUTMt-AU?si=5HGoCa0C8c37d4Yb
-- **"LoRA: Low-Rank Adaptation of Large Language Models"** by Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen.
+This project is heavily inspired by and based on the excellent tutorial by Umar Jamil:
+- **[LoRA: Low-Rank Adaptation of Large Language Models - Explained visually + PyTorch code from scratch](https://youtu.be/PXWYUTMt-AU?si=5HGoCa0C8c37d4Yb)**
